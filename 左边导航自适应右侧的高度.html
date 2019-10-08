@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    .app-wrap{
+        position: relative;
+        top:0;
+        left:0;
+        right: 0;
+        bottom: 0;
+        display: flex;
+    }
+    .left-nav-wrap{
+      flex: 0 0 250px;
+      width: 250px;
+      min-height: calc(100vh);     
+      background: rgb(0, 21, 41);
+    }
+    .right-sustain-wrap{
+        flex: 1;
+        min-height: 300px;
+        background-color: lightgreen;
+    }
+  </style>
+</head>
+<body>
+ <!-- 在外层盒子 -->
+<div class="app-wrap">
+    <!-- 左侧导航 -->
+    <div class="left-nav-wrap">
+    </div>
+    <!-- 右侧内容 -->
+    <div class="right-sustain-wrap">
+    </div>
+</div>
+</body>
+</html>
